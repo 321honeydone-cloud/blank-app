@@ -1,6 +1,6 @@
-import streamlit as st
+DEFAULT_RATEBOOK_PATH = r"G:\My Drive\HoneyDone Propery Maintenance\HoneyDone_RateBook_Template_No_RoundUp.xlsx"
+DEFAULT_RATEBOOK_SHEET = "RateBook"
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+TRIP_FEE = 100.00
+HOURLY_RATE = 100.00
+TAX_RATE = 0.06  # materials only
